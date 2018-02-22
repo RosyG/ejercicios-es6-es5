@@ -3,7 +3,7 @@ const laboratoria = {
     "primera" : {
       "alumnas" : 19,
       "edad-promedio" : 23,
-      "nombre-mas-comun" : "Maria" 
+      "nombre-mas-comun" : "Maria"
     },
     "segunda" : {
       "alumnas" : 27,
@@ -26,4 +26,6 @@ const laboratoria = {
       "nombre-mas-comun" : "Karina"
     }
   }
-};   
+};
+
+console.log(laboratoria);
