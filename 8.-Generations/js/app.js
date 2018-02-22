@@ -1,9 +1,25 @@
-                        // ES5
-
 
 // 1.1- Mostrar en la consola un mensaje que diga... "El numero de generaciones es (numero de generaciones en total)"
 
+// ES5
+function showNumberGenerartions(obj) {
+  console.log('fg');
+  var arrayGeneration =[];
+  for (generations in obj) {
+    console.log(generations);
+    arrayGeneration.push(generations);
+    console.log(arrayGeneration);
+  }
+}
 
+showNumberGenerartions (laboratoria.generations);
+
+//console.log('El numero de generaciones es'+ account);
+/*
+for (let generations in laboratoria.generaciones) {
+  console.log(generations);
+}
+*/
 
 
 
@@ -36,8 +52,8 @@
 
 
 
-                                  
-// Alcance 2... 
+
+// Alcance 2...
 
 
 // 2.1- Mostrar en la consola un mensaje que diga... ""El numero total de alumnas en todas las generaciones es: (total de alumnas de todas las generaciones) y en promedio (el promedio de alumnas por generacion) mujeres  cursan Laboratoria cada generacion"
@@ -65,7 +81,7 @@
 
 // Alcance 3....
 
-// Crear botones para disparar cada uno de los puntos y pintarlos por medio del DOM 
+// Crear botones para disparar cada uno de los puntos y pintarlos por medio del DOM
 
 
 
@@ -78,7 +94,7 @@
 
 // Alcance 4....
 
-// Agregar la siguiente generacion a la data desde una funcion obteniendo los datos por medio de prompts: 
+// Agregar la siguiente generacion a la data desde una funcion obteniendo los datos por medio de prompts:
 
 //  "sexta", "alumnas": 120, "edad-promedio": 28, "nombre-mas-comun" : "Silvana"
 
